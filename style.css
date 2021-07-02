@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner_left{
+    z-index:2;
+    height: 300px;
+    background:rgb(159, 168, 113);
+}   
+.banner_right{
+    z-index:2;
+    background:rgb(82, 104, 2);
+}
+.banner_container{
+    background:linear-gradient(90deg,rgb(199, 111, 3) 80%,white 20%);
+}
+.banner_bottom{
+    height: 150px;
+    background:linear-gradient(90deg,rgb(199, 111, 3) 80%,white 20%);
+}
+
+.banner_info h1{
+    font-size: 10rem;
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.item_about{
+    padding-right:50px;
+}
+.about_links{
+    margin-top: 20px;
+}
+.item_skills{
+    position: relative;
+}
+.content_skills{
+    height:300px;
+}
+.content_skill{
+    padding:5px 0;
+}
+.content_skill:hover{
+    transform: scale(0.9);
+}
+.item_progress{
+    padding-left:15px;
+    width: 300px;
+}
+ul {
+    list-style-type: none;
+}
+.timeline li{
+    position: relative;
+    padding:10px 0;
+}
+.timeline li::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    top:0;
+    bottom:0;
+    height:100%;
+    background: rgb(184, 178, 178);
+}
+.timeline li::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    border:5px solid rgb(199, 111, 3);
+    left:-11px;
+    z-index: 2;
+}
+.timeline li:first-child::after{
+    top:10px;
+}
+.timeline li:last-child::after{
+    height:90% ;
+}
+.porfolio_words h1{
+    color:rgb(67, 123, 168);
+    font-size: 9rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -4px -4px #e4e4e7;
+    margin-bottom: 0;
+}
+
+.porfolio_words h4{
+    color:rgb(53, 100, 138);
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -4px -4px #e4e4e7;
+    margin-top: -20px;
+}
+
+.porfolio_words1{
+    color:rgb(67, 123, 168);
+    font-size: 9rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -4px -4px #c9c9df;
+    margin-bottom: 0;
+}
+.porfolio_words2{
+    color:rgb(197, 133, 50);
+    font-size: 9rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -4px -4px #e6d8c4;
+    margin-bottom: 0;
+}
+.porfolio_words_phone1{
+    color:rgb(67, 123, 168);
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -2px -2px #c9c9df;
+    margin-bottom: 0;
+}
+.porfolio_words_phone2{
+    color:rgb(197, 133, 50);
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -2px -2px #e6d8c4;
+    margin-bottom: 0;
+}
+.porfolio_words h4{
+    color:rgb(67, 123, 168);
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -4px -4px #e4e4e7;
+    margin-top: -20px;
+}
+.porfolio_words_phone{
+    padding-bottom: 40px;
+}
+.porfolio_words_phone h1{
+    color:rgb(67, 123, 168);
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -2px -2px #e4e4e7;
+    margin-bottom: 0;
+}
+
+.porfolio_words_phone h4{
+    color:rgb(67, 123, 168);
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: -10px;
+}
+.porfolio_words{
+    position: relative;
+    padding:50px 0;
+}
+.porfolio_words1::before{
+    content:"";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgb(214, 134, 134);
+    left:-11px;
+}
+.content_news{
+    height: 200px;
+}
+.content_news li{
+    position: relative;
+}
+.content_news li::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    top:0;
+    bottom:0;
+    height:100%;
+    background: rgb(199, 111, 3);
+}
+.content_news li::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgb(199, 111, 3);
+    border:5px solid rgb(199, 111, 3);
+    left:-5px;
+    z-index: 2;
+}
+.list-group li{
+    border:0;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.content_plans li{ 
+    position: relative;
+}
+.content_plans li::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    top:0;
+    bottom:0;
+    height:100%;
+    background: rgb(199, 111, 3);
+}
+.content_plans li::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgb(199, 111, 3);
+    border:5px solid rgb(199, 111, 3);
+    left:-5px;
+    z-index: 2;
+}
+.porfolio_words{
+    max-width: 100%;
+}
+.title_plans,.title_hihglight{
+    font-size: large;
+    font-weight: 900;
+}
+.title_hihglight_date{
+    color: rgb(102, 101, 101);
+}
+.title_hihglight_content{
+    font-size: x-large;
+    font-weight: 900;
+}
+.badge_plans{
+    height: 20px;
+}
+.title_blocks{
+    color: rgb(67, 123, 168);
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.block_first,.block_second,.block_third{
+    padding: 20px 0;
+}
+.title_porfolio{
+    text-shadow: -2px -2px #e4e4e7;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(67, 123, 168);
+}
+.title_porfolio_content{
+    font-weight: 900;
+    color: rgb(128, 128, 128);
+}
+.porfolio_description{
+    padding: 20px 0;
+}
+.porfolio_content img{
+    border-radius: 20px;
+}
+.badge_plans1{
+    background: rgb(22, 102, 62);
+}
+.badge_plans2{
+    background: rgb(49, 185, 117);
+}
+.porfolio_description{
+    position: relative;
+}
+
+.item_photo_out{
+    width: 270px;
+    height: 270px;
+    border:8px solid rgb(77, 182, 164);
+    border-radius: 100%;
+}
+.item_photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border:8px solid rgb(12, 75, 40);
+}
+.mephoto{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.content_new:hover{
+    color: rgb(199, 111, 3);
+    transform: scale(1.1);
+}
+.content_plan:hover{
+    color: rgb(199, 111, 3);
+    transform: scale(1.1);
+}
+.timeline_content:hover{
+    color: rgb(199, 111, 3);
+}
+.porfolio_content:hover{
+    transform: scale(1.1);
+}
+
+.links_a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    font-size: 1.1rem;
+    font-family: monospace;
+}
+.link:hover{
+    color: rgb(36, 86, 250);
+    transform: scale(1.1);
+    font-family: monospace;
+}
