@@ -30,12 +30,14 @@
 }
 .about {
   padding-bottom: 30px;
+  color: white;
 }
 .item_about {
   padding-right: 50px;
 }
 .about_links {
   margin-top: 20px;
+  color: white;
 }
 .item_skills {
   position: relative;
@@ -239,10 +241,14 @@ ul {
   font-size: large;
   font-weight: 900;
 }
+.title_plans {
+  color: rgb(24, 207, 24);
+}
 .title_hihglight_date {
   color: rgb(102, 101, 101);
 }
 .title_hihglight_content {
+  color: yellow;
   font-size: x-large;
   font-weight: 900;
 }
@@ -359,7 +365,7 @@ ul {
 }
 .web {
   background: black;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .web-img {
   height: 600px;
@@ -418,4 +424,38 @@ ul {
   100% {
     color: rgb(0, 255, 0);
   }
+}
+.a {
+  background-color: rgb(10, 9, 9);
+}
+.b {
+  background-color: rgb(10, 9, 9);
+}
+.info-wrap {
+  background-color: rgb(10, 9, 9);
+  width: 70%;
+}
+.g {
+  color: rgb(35, 194, 35);
+}
+.r {
+  color: rgb(240, 34, 34);
+}
+.y {
+  color: rgb(241, 241, 42);
+}
+.w {
+  color: white;
+}
+.p {
+  color: rgb(228, 18, 228);
+}
+.c {
+  color: rgb(0, 153, 255);
+}
+li {
+  color: #888;
+}
+li span {
+  padding-left: 5%;
 }
